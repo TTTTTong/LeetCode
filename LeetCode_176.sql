@@ -1,0 +1,1 @@
+select ifnull((select distinct(Salary) from Employee ORDER by Salary DESC limit 1,1), null) as SecondHighestSalary

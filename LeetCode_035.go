@@ -1,9 +1,5 @@
 package tong
 
-func main()  {
-
-}
-
 func searchInsert(nums []int, target int) int {
 	for k, v := range nums {
 		if v >= target {

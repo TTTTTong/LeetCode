@@ -4,7 +4,7 @@ package com.tongxy.LeetCode;
 public class LeetCode_003 {
 
     // 滑动窗口
-    private static int lengthOfLongestSubstring(String s) {
+    public static int lengthOfLongestSubstring(String s) {
         StringBuilder sb = new StringBuilder("");
         int max = 0;
 
